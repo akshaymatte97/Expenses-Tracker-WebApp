@@ -1,0 +1,8 @@
+target/
+mysql-data/
+*.log
+.env
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
