@@ -6,7 +6,7 @@ services:
       networks:
         - expenses-app-nw
       environment:
-       SPRING_DATASOURCE_URL: "jdbc:mysql://mysql:3306/expenses_tracker?allowPublicKeyRetrieval=true&useSSL=false"
+       SPRING_DATASOURCE_URL: "jdbc:mysql://mysql_db:3306/expenses_tracker?allowPublicKeyRetrieval=true&useSSL=false"
        SPRING_DATASOURCE_USERNAME: root
        SPRING_DATASOURCE_PASSWORD: Test@123
       ports:
